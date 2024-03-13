@@ -1,0 +1,14 @@
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/bin/Debug/net7.0/Task1
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/bin/Debug/net7.0/Task1.deps.json
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/bin/Debug/net7.0/Task1.runtimeconfig.json
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/bin/Debug/net7.0/Task1.dll
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/bin/Debug/net7.0/Task1.pdb
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.AssemblyInfoInputs.cache
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.AssemblyInfo.cs
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.csproj.CoreCompileInputs.cache
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.dll
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/refint/Task1.dll
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.pdb
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/Task1.genruntimeconfig.cache
+/Users/kit/Desktop/01_CSHARP/lesson1/Task1/obj/Debug/net7.0/ref/Task1.dll
