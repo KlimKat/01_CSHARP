@@ -28,7 +28,7 @@ Console.WriteLine("Введите второе число:");
 double num2;
 while (!double.TryParse(Console.ReadLine(), out num2))
 {
-    Console.WriteLine("Неверный формат. Пожалуйста, введите число:");
+    Console.WriteLine("Неверный формат. Если хотите ввести дробное число, вводите через запятую:");
 }
 
 if (num1 == num2)
