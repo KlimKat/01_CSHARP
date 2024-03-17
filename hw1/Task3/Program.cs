@@ -5,7 +5,7 @@
 // -3 => нет
 // 7 => нет
 
-Console.WriteLine("Введите первое число:");
+Console.WriteLine("Введите число:");
 double num;
 while (!double.TryParse(Console.ReadLine(), out num))
 {
