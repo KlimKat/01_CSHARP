@@ -54,13 +54,3 @@ Console.WriteLine();
 ReplaceRows(array2d, 0, array2d.GetLength(0) - 1);
 Console.WriteLine("Массив после замены:");
 PrintMatrix(array2d);
-
-
-
-// int[,] array2d = CreateaMatrixRndInt(3, 4, 1, 10);
-// PrintMatrix(array2d);
-
-// Console.WriteLine();
-
-// ReplaceRows(array2d);
-// PrintMatrix(array2d);
