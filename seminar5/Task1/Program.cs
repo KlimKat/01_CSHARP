@@ -15,7 +15,7 @@
 // 4   3   4   1
 // 4   9   25  4
 
-int[,] CreateaMatrixRndInt(int rows, int columns, int min, int max)
+int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
 {//                          0      1
     int[,] matrix = new int[rows, columns]; // 3 x 4
     Random rnd = new Random();
@@ -51,7 +51,7 @@ void ReplaceElemEvenIdxToSquare(int[,] matrix)
         }
     }
 }
-int[,] array2d = CreateaMatrixRndInt(3, 4, 1, 10);
+int[,] array2d = CreateMatrixRndInt(3, 4, 1, 10);
 PrintMatrix(array2d);
 
 Console.WriteLine();
