@@ -5,25 +5,31 @@
 // Пример:
 // “aBcD1ef!-” => “abcd1ef!-”
 
-//нужно доделать (но 2 метода вот эти нужно заюзать)
-
-string str = "aBcD1ef!-";
-string result = "";
-if(char.IsUpper(str[1]))
-{
-    result += str[1].ToString().ToLower();
-}
-
-
-string GetLettersFromString(string s)
+string ConvertToLowerCase(string str)
 {
     string letters = "";
-    foreach (char e in s)
+    foreach (char e in str)
     {
-        if (char.IsAsciiLetter(e) == true)
+        if (char.IsAsciiLetter(e)) // Проверяем, является ли символ буквой
         {
-            letters = letters + e;
+            if (char.IsUpper(e)) // Проверяем, является ли буква заглавной
+            {
+                letters += char.ToLower(e); // Заменяем заглавную букву на строчную и добавляем к результату
+            }
+            else
+            {
+                letters += e; // Если буква уже строчная, добавляем ее без изменений к результату
+            }
+        }
+        else
+        {
+            letters += e; // Если символ не является буквой, добавляем его без изменений к результату
         }
     }
     return letters;
+
 }
+
+string str = "aBcD1ef!-";
+string letters = ConvertToLowerCase(str);
+Console.Write(letters); // Выводим результат
