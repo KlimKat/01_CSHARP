@@ -33,5 +33,5 @@ test1/SchemeMainPart.jpg
 ```
 ## Реализация алгоритма c пом-ю С#
 ```sh
-test1/Program.cs
+test1/program/Program.cs
 ```
